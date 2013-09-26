@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'guestlist';
+  src:url('fonts/guestlist.eot');
+  src:url('fonts/guestlist.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/guestlist.svg#guestlist')
+      format('svg'),
+    url('fonts/guestlist.woff') format('woff'),
+    url('fonts/guestlist.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-check"]:before,
+[class*=" icon-check"]:before {
+  font-family: 'guestlist';
+  font-style: normal;
+  font-size: .75em;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-check:before {
+  content: "\e000";
+}
+.dropdown-menu .icon-check .name {
+  padding-left: 1em;
+}

@@ -1,0 +1,32 @@
+/* Base CSS at http://bootswatch.com/cyborg */
+
+@font-face {
+  font-family: 'guestlist';
+  src:url('fonts/guestlist.eot');
+  src:url('fonts/guestlist.eot?#iefix') format('embedded-opentype'),
+    url('fonts/guestlist.svg#guestlist') format('svg'),
+    url('fonts/guestlist.woff') format('woff'),
+    url('fonts/guestlist.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-check"]:before, [class*=" icon-check"]:before {
+  font-family: 'guestlist';
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-check:before {
+  content: "\e000";
+}
+
+h1 {
+  color: #2AB2E4;
+}
+#main {
+  margin-left:2em;
+}
+

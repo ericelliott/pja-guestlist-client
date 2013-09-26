@@ -1,0 +1,31 @@
+{
+  "name": "guestlist-client",
+  "version": "0.1.0",
+  "author": "Eric Elliott",
+  "description": "A handy tool for bouncers.",
+  "keywords": [
+    "party",
+    "guestlist"
+  ],
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "jquery-browserify": "*",
+    "backbone-browserify": "*",
+    "es5-shim": "*",
+    "tinyapp": "git://github.com/dilvie/tinyapp.git",
+    "grunt-contrib-jshint": "~0.6.4"
+  },
+  "devDependencies": {
+    "traverse": "*",
+    "grunt": "*",
+    "grunt-browserify": "*",
+    "browserify": "*",
+    "grunt-contrib-qunit": "~0.2.2"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
